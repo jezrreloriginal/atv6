@@ -1,0 +1,14 @@
+
+    .filmes {
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(43, 28, 2);
+      }
+      
+      .filmes> div {
+        background-color: #6e5333;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+      }
+      
