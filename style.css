@@ -12,4 +12,16 @@
         padding: 20px;
         font-size: 30px;
       }
-       
+      .gifs {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        background-color: rgb(43, 28, 2);
+      }
+      
+      .gifs> div {
+        background-color: #6e5333;
+        margin: 10px;
+        padding: 20px;
+        font-size: 30px;
+      }
