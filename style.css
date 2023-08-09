@@ -1,6 +1,7 @@
 
     .filmes {
         display: flex;
+        justify-content: center ;
         flex-direction: column;
         background-color: rgb(43, 28, 2);
       }
