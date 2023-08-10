@@ -1,0 +1,8 @@
+.filmes {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(43, 28, 2);
+    image-orientation: width="250" height="322"> 
+  }
+  
