@@ -1,11 +1,17 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #000; 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-video: url('https://youtu.be/BQrxsyGTztM');
+    -webkit-background-video: url('https://youtu.be/BQrxsyGTztM'); /* Para navegadores baseados em Webkit, como o Safari */
+    object-fit: fill;
+  }
+  
 
-
-.filmes img {
-
-
- image ;
-width: 250px;
- height: 322px;
-
-
-}
