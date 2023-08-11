@@ -9,7 +9,7 @@ body {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    background-video: url('https://youtu.be/BQrxsyGTztM');
+    background-image: url('https://youtu.be/BQrxsyGTztM');
     -webkit-background-video: url('https://youtu.be/BQrxsyGTztM'); /* Para navegadores baseados em Webkit, como o Safari */
     object-fit: fill;
   }
