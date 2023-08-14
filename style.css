@@ -11,6 +11,10 @@
   .conteudo {
     text-align: center;
   }
+
+  body {
+    text-align: center;
+  }
   
   h1 {
     font-size: 24px;
@@ -21,15 +25,12 @@
     width: 200px;
     height: 200px;
   }
-  button {
-    background-color: #4CAF50;
+
+  .link-button {
+    text-decoration: none;
     color: white;
-    padding: 12px 20px;
-    border: none;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-image: url(hp2.gif);
+    background-color: aqua;
+    padding: 5px 10px;
+    border-radius: 5px;
   }
   
