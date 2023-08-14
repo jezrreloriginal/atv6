@@ -1,12 +1,17 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="style2.css">
+    <title>Tela de Carregamento</title>
+    <link rel="stylesheet" type="text/css" href="style2.css">
 </head>
 <body>
-  <div class="loader">
-    <div class="spinner"></div>
-  </div>
-  <script src="script.js"></script>
+    <div class="loader"></div>
+    <button class="button" onClick="redirectToPage()">Ir para outra página</button>
+
+    <script>
+        function redirectToPage() {
+            window.location.href = "outra_pagina.html";
+        }
+    </script>
 </body>
 </html>
