@@ -1,0 +1,24 @@
+.pagina-carregamento {
+    background-image: url("harrypotterfundo.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .conteudo {
+    text-align: center;
+  }
+  
+  h1 {
+    font-size: 24px;
+    color: #fff;
+  }
+  
+  img {
+    width: 200px;
+    height: 200px;
+  }
+  
