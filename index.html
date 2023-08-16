@@ -1,19 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Página de Carregamento</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-  <div class="pagina-carregamento">
-    <div class="conteudo">
-      <h1>Carregando...</h1>
-    
+    <div class="loading-animation">
+        <div class="loader"></div>
     </div>
-  </div>
 
-  <!--<button id="meuBotao"  href="https://jezrreloriginal.github.io/atv6/index2">Clique aqui</button>-->
-  <a class="link-button" href="https://jezrreloriginal.github.io/atv6/index2">Clique aqui</a>
-
-
+    <div class="content">
+        <a href="https://jezrreloriginal.github.io/atv6/index2">
+            <img src="a.png" alt="Imagem" />
+        </a>
+    </div>
+    
+    <video autoplay muted loop id="background-video">
+        <source src="https://youtu.be/25y1b5yHi18" type="video/mp4">
+        Seu navegador não suporta vídeos.
+    </video>
 </body>
 </html>
