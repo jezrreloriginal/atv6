@@ -1,23 +1,45 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Página de Carregamento</title>
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Carregando...</title>
+    <style>
+        /* Defina o estilo da animação de carregamento */
+        @keyframes loading {
+            0% {
+                background-color: gold; /* Cor ouro */
+            }
+            100% {
+                background-color: gold; /* Manter a cor ouro no final da animação */
+            }
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-image: url(a.png); /* Imagem de fundo */
+            background-size: cover;
+        }
+        
+        .loader {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            animation: loading 1.5s infinite alternate;
+        }
+    </style>
 </head>
 <body>
-    <div class="loading-animation">
-        <div class="loader"></div>
-    </div>
+    <div class="loader"></div>
 
-    <div class="content">
-        <a href="https://jezrreloriginal.github.io/atv6/index2">
-            <img src="a.png" alt="Imagem" />
-        </a>
-    </div>
-    
-    <video autoplay muted loop id="background-video">
-        <source src="https://youtu.be/25y1b5yHi18" type="video/mp4">
-        Seu navegador não suporta vídeos.
-    </video>
+    <script>
+        // Redirecionar para a página desejada após 3 segundos (1500ms)
+        setTimeout(function () {
+            window.location.href = "https://jezrreloriginal.github.io/atv6/index2";
+        }, 3000);
+    </script>
 </body>
 </html>
