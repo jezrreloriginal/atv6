@@ -1,47 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Carregando...</title>
-    <style>
-
-
-        /* Defina o estilo da animação de carregamento */
-        @keyframes loading {
-            0% {
-                background-color: rgba(255, 217, 0, 0.041); /* Cor ouro */
-            }
-            100% {
-                background-color: rgba(255, 217, 0, 0.021); /* Manter a cor ouro no final da animação */
-            }
-        }
-
-        body {
-            margin: 0;
-            padding: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background-image: url("./HARRY\ POTTER\ E\ A\ CÂMARA\ SECRETA\ _\ RESUMO\ DO\ FILME.webm");
-            background-size: cover;
-        }
-        
-        .loader {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            animation: loading 1.5s infinite alternate;
-        }
-    </style>
+  <title>Vídeo de Fundo</title>
 </head>
 <body>
-    <div class="loader"></div>
-
-    <script>
-        // Redirecionar para a página desejada após 3 segundos (1500ms)
-        setTimeout(function () {
-            window.location.href = "https://jezrreloriginal.github.io/atv6/index2";
-        }, 3000);
-    </script>
+  <video id="background-video" autoplay muted loop>
+    <source src="caminho/do/video.mp4" type="video/mp4">
+  </video>
 </body>
 </html>
+
