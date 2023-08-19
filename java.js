@@ -1,5 +1,5 @@
 // Defina o tempo de espera em milissegundos
-var tempoDeEspera = 5000; // 5 segundos
+var tempoDeEspera = 1000; // 1 segundo
 
 // Função para redirecionar para outra página
 function redirecionar() {
