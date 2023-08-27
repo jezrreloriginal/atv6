@@ -14,7 +14,7 @@
       }
       .gifs {
         display: flex;
-        justify-content: center;
+        justify-items: baseline;
         flex-direction: column;
         background-color: rgb(43, 28, 2);
       }
